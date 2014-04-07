@@ -1,0 +1,294 @@
+[{
+    u 'body': {
+        u 'value': '1',
+        u 'key': 'id',
+        u 'properties': {
+            'age': '24',
+            'id': '1'
+        }
+    },
+    u 'to': 'index/node/People?uniqueness=get_or_create',
+    u 'id': 0,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': 'technician',
+        u 'key': 'id',
+        u 'properties': {
+            'id': 'technician'
+        }
+    },
+    u 'to': 'index/node/Occupation?uniqueness=get_or_create',
+    u 'id': 1,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'end': u '{1}',
+        u 'value': 'technician85711\n',
+        u 'start': u '{0}',
+        u 'key': 'id',
+        u 'type': 'Works_In',
+        u 'properties': {}
+    },
+    u 'to': 'index/relationship/Works_In?uniqueness=get_or_create',
+    u 'id': 2,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': '2',
+        u 'key': 'id',
+        u 'properties': {
+            'age': '53',
+            'id': '2'
+        }
+    },
+    u 'to': 'index/node/People?uniqueness=get_or_create',
+    u 'id': 3,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': 'other',
+        u 'key': 'id',
+        u 'properties': {
+            'id': 'other'
+        }
+    },
+    u 'to': 'index/node/Occupation?uniqueness=get_or_create',
+    u 'id': 4,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'end': u '{4}',
+        u 'value': 'other94043\n',
+        u 'start': u '{3}',
+        u 'key': 'id',
+        u 'type': 'Works_In',
+        u 'properties': {}
+    },
+    u 'to': 'index/relationship/Works_In?uniqueness=get_or_create',
+    u 'id': 5,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': '3',
+        u 'key': 'id',
+        u 'properties': {
+            'age': '23',
+            'id': '3'
+        }
+    },
+    u 'to': 'index/node/People?uniqueness=get_or_create',
+    u 'id': 6,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': 'writer',
+        u 'key': 'id',
+        u 'properties': {
+            'id': 'writer'
+        }
+    },
+    u 'to': 'index/node/Occupation?uniqueness=get_or_create',
+    u 'id': 7,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'end': u '{7}',
+        u 'value': 'writer32067\n',
+        u 'start': u '{6}',
+        u 'key': 'id',
+        u 'type': 'Works_In',
+        u 'properties': {}
+    },
+    u 'to': 'index/relationship/Works_In?uniqueness=get_or_create',
+    u 'id': 8,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': '4',
+        u 'key': 'id',
+        u 'properties': {
+            'age': '24',
+            'id': '4'
+        }
+    },
+    u 'to': 'index/node/People?uniqueness=get_or_create',
+    u 'id': 9,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': 'technician',
+        u 'key': 'id',
+        u 'properties': {
+            'id': 'technician'
+        }
+    },
+    u 'to': 'index/node/Occupation?uniqueness=get_or_create',
+    u 'id': 10,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'end': u '{10}',
+        u 'value': 'technician43537\n',
+        u 'start': u '{9}',
+        u 'key': 'id',
+        u 'type': 'Works_In',
+        u 'properties': {}
+    },
+    u 'to': 'index/relationship/Works_In?uniqueness=get_or_create',
+    u 'id': 11,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': '5',
+        u 'key': 'id',
+        u 'properties': {
+            'age': '33',
+            'id': '5'
+        }
+    },
+    u 'to': 'index/node/People?uniqueness=get_or_create',
+    u 'id': 12,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': 'other',
+        u 'key': 'id',
+        u 'properties': {
+            'id': 'other'
+        }
+    },
+    u 'to': 'index/node/Occupation?uniqueness=get_or_create',
+    u 'id': 13,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'end': u '{13}',
+        u 'value': 'other15213\n',
+        u 'start': u '{12}',
+        u 'key': 'id',
+        u 'type': 'Works_In',
+        u 'properties': {}
+    },
+    u 'to': 'index/relationship/Works_In?uniqueness=get_or_create',
+    u 'id': 14,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': '6',
+        u 'key': 'id',
+        u 'properties': {
+            'age': '42',
+            'id': '6'
+        }
+    },
+    u 'to': 'index/node/People?uniqueness=get_or_create',
+    u 'id': 15,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': 'executive',
+        u 'key': 'id',
+        u 'properties': {
+            'id': 'executive'
+        }
+    },
+    u 'to': 'index/node/Occupation?uniqueness=get_or_create',
+    u 'id': 16,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'end': u '{16}',
+        u 'value': 'executive98101\n',
+        u 'start': u '{15}',
+        u 'key': 'id',
+        u 'type': 'Works_In',
+        u 'properties': {}
+    },
+    u 'to': 'index/relationship/Works_In?uniqueness=get_or_create',
+    u 'id': 17,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': '7',
+        u 'key': 'id',
+        u 'properties': {
+            'age': '57',
+            'id': '7'
+        }
+    },
+    u 'to': 'index/node/People?uniqueness=get_or_create',
+    u 'id': 18,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': 'administrator',
+        u 'key': 'id',
+        u 'properties': {
+            'id': 'administrator'
+        }
+    },
+    u 'to': 'index/node/Occupation?uniqueness=get_or_create',
+    u 'id': 19,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'end': u '{19}',
+        u 'value': 'administrator91344\n',
+        u 'start': u '{18}',
+        u 'key': 'id',
+        u 'type': 'Works_In',
+        u 'properties': {}
+    },
+    u 'to': 'index/relationship/Works_In?uniqueness=get_or_create',
+    u 'id': 20,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': '8',
+        u 'key': 'id',
+        u 'properties': {
+            'age': '36',
+            'id': '8'
+        }
+    },
+    u 'to': 'index/node/People?uniqueness=get_or_create',
+    u 'id': 21,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'value': 'administrator',
+        u 'key': 'id',
+        u 'properties': {
+            'id': 'administrator'
+        }
+    },
+    u 'to': 'index/node/Occupation?uniqueness=get_or_create',
+    u 'id': 22,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        u 'end': u '{22}',
+        u 'value': 'administrator05201',
+        u 'start': u '{21}',
+        u 'key': 'id',
+        u 'type': 'Works_In',
+        u 'properties': {}
+    },
+    u 'to': 'index/relationship/Works_In?uniqueness=get_or_create',
+    u 'id': 23,
+    u 'method': u 'POST'
+}, {
+    u 'body': {
+        'age': 100,
+        'id': 1000
+    },
+    u 'to': 'node',
+    u 'id': 24,
+    u 'method': u 'POST'
+}, {
+    u 'body': ['alal'],
+    u 'to': '{24}/labels',
+    u 'id': 25,
+    u 'method': u 'POST'
+}]

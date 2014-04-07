@@ -1,0 +1,57 @@
+{
+    u 'ratings': {
+        u 'critics_score': 100,
+        u 'audience_score': 92,
+        u 'critics_rating': u 'Certified Fresh',
+        u 'audience_rating': u 'Upright'
+    },
+    u 'links': {
+        u 'reviews': u 'http://api.rottentomatoes.com/api/public/v1.0/movies/9559/reviews.json',
+        u 'self': u 'http://api.rottentomatoes.com/api/public/v1.0/movies/9559.json',
+        u 'alternate': u 'http://www.rottentomatoes.com/m/toy_story/',
+        u 'clips': u 'http://api.rottentomatoes.com/api/public/v1.0/movies/9559/clips.json',
+        u 'cast': u 'http://api.rottentomatoes.com/api/public/v1.0/movies/9559/cast.json',
+        u 'similar': u 'http://api.rottentomatoes.com/api/public/v1.0/movies/9559/similar.json'
+    },
+    u 'title': u 'Toy Story',
+    u 'critics_consensus': u "As entertaining as it is innovative, Toy Story kicked off Pixar's unprecedented run of quality pictures, reinvigorating animated film in the process.",
+    u 'release_dates': {
+        u 'dvd': u '2001-03-20',
+        u 'theater': u '1995-11-22'
+    },
+    u 'abridged_cast': [{
+        u 'name': u 'Tom Hanks',
+        u 'characters': [u 'Woody'],
+        u 'id': u '162655641'
+    }, {
+        u 'name': u 'Tim Allen',
+        u 'characters': [u 'Buzz Lightyear'],
+        u 'id': u '162655909'
+    }, {
+        u 'name': u 'Don Rickles',
+        u 'characters': [u 'Mr. Potato Head'],
+        u 'id': u '341817905'
+    }, {
+        u 'name': u 'Jim Varney',
+        u 'characters': [u 'Slinky Dog'],
+        u 'id': u '162662792'
+    }, {
+        u 'name': u 'Wallace Shawn',
+        u 'characters': [u 'Rex'],
+        u 'id': u '162671862'
+    }],
+    u 'synopsis': u '',
+    u 'mpaa_rating': u 'G',
+    u 'year': 1995,
+    u 'alternate_ids': {
+        u 'imdb': u '0114709'
+    },
+    u 'posters': {
+        u 'profile': u 'http://content7.flixster.com/movie/10/93/63/10936393_pro.jpg',
+        u 'detailed': u 'http://content7.flixster.com/movie/10/93/63/10936393_det.jpg',
+        u 'thumbnail': u 'http://content7.flixster.com/movie/10/93/63/10936393_mob.jpg',
+        u 'original': u 'http://content7.flixster.com/movie/10/93/63/10936393_ori.jpg'
+    },
+    u 'runtime': 80,
+    u 'id': u '9559'
+}
