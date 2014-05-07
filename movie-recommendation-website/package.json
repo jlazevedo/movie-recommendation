@@ -1,0 +1,19 @@
+{
+  "name": "movie-recommendation-website",
+  "version": "0.0.0",
+  "description": "This is a simple website where users can login, rate movies and receive recommendations.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": "true",
+  "dependencies": {
+     "connect": "",
+     "express": "3.*",
+     "express3-handlebars": "",
+     "neo4j":"",
+     "underscore":""
+  }
+}

@@ -1,0 +1,17 @@
+<html>
+
+    <body>
+        <form action="rate-movie" method="post" >
+            <br>
+            <img src="{{img}}" width="20%"/>
+            <br>
+            <p>{{title}}</p>
+            <br>
+            <input type="hidden" name="movie_id" value="{{movie_id}}">
+            <input type="hidden" name="user_id" value="{{id}}">
+            Rate: <input type="text" name="rate"><br>
+            <input type="submit" value="Submit">
+        </form>
+    
+    </body>
+</html>
