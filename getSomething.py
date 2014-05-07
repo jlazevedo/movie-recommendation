@@ -13,39 +13,38 @@ if __name__ == "__main__":
         print i, ":",
         person_id, movie_id, rate, timestamp = line.split('\t')
     
-        query = neo4j.CypherQuery(graph_db, "start a=node:People(people_id='" +person_id+"'), b=node:Movie(movie_id='"+movie_id+"') match p=a-[r:Rates]->c<-[s:Rates]-d-[t:Rates]->b,c-[u:Genre_As]->g<-[v:Genre_As]-b where r.rating = s.rating return p")
+        query = neo4j.CypherQuery(graph_db, "start a=node:People(people_id='" +person_id+"'), "
+                "b=node:Movie(movie_id='"+movie_id+"') match p=a-[r:Rates]->c<-[s:Rates]-d-[t:Rates]->b, "
+                        "c-[u:Genre_As]->g<-[v:Genre_As]-b where r.rating = s.rating return avg(t.rating)")
     
         person = batch.get_or_create_in_index(neo4j.Node, 'People', 'people_id', person_id, node())
         movie = batch.get_or_create_in_index(neo4j.Node, 'Movie', 'movie_id', movie_id, node())
         
-        relationship = batch.get_or_create_in_index(neo4j.Relationship, 'Rates', 'rate_id', person_id+':'+movie_id, rel(person, ('Rates',{'rating':int(rate)}), movie))
+        relationship = batch.get_or_create_in_index(neo4j.Relationship, 'Rates', 'rate_id',
+                                            person_id+':'+movie_id, rel(person, ('Rates',{'rating':int(rate)}), movie))
         
         batch.submit()
         batch.clear()
-        
-        #print query
-    
-        i = 0.0
-        value = 0
+
+        result = 0
     
         for record in query.stream():
+
+            if record.values[0] is None:
+                result = 0
+            else:
+                result = float(record.values[0])
+
+        print result, rate,
         
-            r = record.values[0].relationships
-            r1, r2, r3 = record.values[0].relationships
-            #print r1.get_properties()['rating'], r2.get_properties()['rating'], r3.get_properties()['rating']
-            value += r3.get_properties()['rating']
-            i += 1.0
-        
-        if (round(i) == 0):
-            i = 1;
-            
-        print value/i, rate,
-        
-        if (round(value/i) == float(rate)):
+        if (round(result) == float(rate)):
             print "\t[X]"
             OLE += 1
         else:
             print "\t[ ]"
+
+        if (i % 1000 == 0):
+            print 'OK: ' + str(OLE)
     
     f.close()
     
