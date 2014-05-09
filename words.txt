@@ -109,7 +109,6 @@ memorable
 mind-blowing
 modern
 moving
-must-see
 mysterious
 mystical
 narrative
@@ -161,36 +160,18 @@ visionary
 visual
 well-paced
 worthwhile
-acting
-action
-actor
-actress
-adventure
 antagonist
 artistic merit
-audience
-audience escapism
-audience response
 autobiography
 budget
 camera
 cast
 central character
 CGI
-character
-character actor
-character chemistry
-character development
-cinema
-cinematography
 climax
 closure
 comedic timing
-comedy
 compilation
-concept
-conclusion
-context
 continuity
 costume
 creativity
@@ -199,7 +180,6 @@ culture
 depiction
 depth
 dialogue
-director
 duality
 empathy
 ending
@@ -209,17 +189,12 @@ expression
 fantasy
 female lead
 fiction
-film
-film critic
-filming
-filmmaking
 finale
 flashback
 flick
 foreshadowing
 format
 frame
-genre
 growth
 hero
 heroine
@@ -243,7 +218,6 @@ language
 lead character
 leading lady
 leading man
-leads
 lighting
 lines
 love interest
@@ -259,14 +233,8 @@ meaning
 memoir
 message
 metaphor
-method
 motion picture
 motivation
-movie
-movie goer
-movie review
-movie star
-movie theater
 musical score
 narration
 narrative
@@ -288,7 +256,6 @@ philosophy
 play
 plot
 plot twist
-point of view
 portrait
 portrayal
 precision
@@ -296,11 +263,6 @@ premiere
 premise
 preoccupation
 prequel
-producer
-production
-protagonist
-rating
-rave reviews
 readership
 reflection
 remake
@@ -308,13 +270,8 @@ rendition
 representation
 resolution
 resonance
-role
-roller coaster
-romance
 saga
 satire
-scene
-screen
 screenplay
 screenwriter
 script
@@ -324,23 +281,17 @@ sensuality
 sequel
 series
 set design
-setting
 shot
 silver screen
 sitcom
 special effects
 spotlight
 stage
-star
 statement
-story
 storyline
 structure
 style
 subconscious
-subject
-subject matter
-subplot
 supporting actor
 suspense
 symbol
@@ -348,8 +299,6 @@ symbolism
 tale
 talent
 technique
-theater
-theme
 thriller
 thrillride
 thumbs up
@@ -359,24 +308,18 @@ transformation
 true story
 understanding
 use of language
-vehicle for
-viewer
 viewpoint
-vision
 voice
 voice-over
 well-cast
 well-written
 wisdom
 work
-writer
 absorb
 accomplish
 act
 affect
-apply
 appreciate
-arouse
 awaken
 be taken in
 bring to life
@@ -384,9 +327,6 @@ bring to light
 captivate
 capture
 carry away
-catch
-characterize
-communicate
 conceive
 conjure
 contemplate
@@ -414,8 +354,6 @@ explore
 express
 fascinate
 feel
-film
-finish
 flashback
 flesh out
 foreshadow
@@ -443,19 +381,14 @@ makes a point
 manipulate
 meditate
 muse on
-narrate
 nettle
 offer
 orchestrate
 outline
 paint
-parallel
-perform
 personify
 piece together
 pique
-play
-play on
 portray
 premiere
 probe
@@ -475,9 +408,7 @@ represent
 resolve
 resonate
 reveal
-review
 rouse
-see
 shoot
 show
 stat
@@ -507,7 +438,6 @@ common
 conceited
 confusing
 contrived
-copied
 crude
 dated
 depressing
@@ -515,7 +445,6 @@ disappointing
 disjointed
 dissatisfying
 distracting
-drab
 dreadful
 dry
 dull
@@ -620,39 +549,24 @@ unsatisfying
 untalented
 vacuous
 waste of time
-action
-adventure
-animated
-animation
 B movie
 biography
 black and white
 cartoon
-comedy
-crime
 cult classics
-documentary
-drama
-fantasy
 feature films
-film noir
 foreign
 historical
-horror
 improv
 improvisation
 independant
 indie
 kids'
-musical
-mystery
 new releases
 porn
 pornographic
 pornography
-romance
 romantic comedy
-sci-fi
 science fiction
 silent movies
 sketch comedy
@@ -662,6 +576,4 @@ special interest
 sports
 stop-motion
 suspense
-thriller
 war drama
-Western
