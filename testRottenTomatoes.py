@@ -5,16 +5,7 @@ from nltk.corpus import movie_reviews
 from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
 
-
-
-
-
 def getReviewsAdjectivesByIMDB(filename,output):
-
-
-
-
-
 
     stop = stopwords.words('english')
 
@@ -35,6 +26,7 @@ def getReviewsAdjectivesByIMDB(filename,output):
 
         ident = values[0]
         if ident in [str(267),str(1358),str(1359)]:
+            print >>file, adjectives
             continue
         title = values[1]
         imdb = values[3]
@@ -94,11 +86,6 @@ def getReviewsAdjectivesByIMDB(filename,output):
 
         print (adjectives)
         print >>file, adjectives
-
-
-
-
-
 
 
 
